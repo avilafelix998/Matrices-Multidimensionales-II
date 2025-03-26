@@ -13,10 +13,8 @@ def ingresar_persona():
     apellido = input("Ingresa el apellido: ")
     dni = input("Ingresa el DNI: ")
     
-    # Ingresar los teléfonos como una cadena separada por comas, luego convertirlos en una lista
     telefonos = input("Ingresa los teléfonos separados por comas: ").split(",")
     
-    # Ingresar los hijos como una cadena separada por comas, luego convertirlos en una lista
     hijos = input("Ingresa los nombres de los hijos separados por comas: ").split(",")
     
     # Limpiar los espacios en blanco extra alrededor de cada teléfono e hijo
